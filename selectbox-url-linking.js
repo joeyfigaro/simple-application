@@ -1,4 +1,5 @@
 // Snippet from the head.js used for the new VCU site
+// ...Allows users to select a link from a select/dropdown and navigate to it upon selection
 
 head.ready('selectBox', function() {
   console.log('head.js: (selectBox) initialized');
