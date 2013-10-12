@@ -7,7 +7,9 @@
 */
 
 
-@import "mixins";
+@mixin column($number) {
+  width: ($single-column * $number) + ($gutter * ($number - 1));
+}
 
 *[data-glacier="grid"] {
   width: $context;
