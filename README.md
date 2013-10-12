@@ -12,4 +12,4 @@ selectbox-url-linking.js
 - Scripted on top of [selectboxit](http://gregfranko.com/jquery.selectBoxIt.js/) to allow us to populate the select with working links. 
 
 titanium-reverse-geolocation.js
-- Part of a holiday app for a company I contracted for previously - was my first time attempting to do something beyond DOM manipulation with js. Script successfully pulled current coordinates from a user's phone, passed them to google for a readable address, and then built a set of directions around that to point the user to our offices. App was accepted to the app store and was available for a couple of months.
+- Part of a holiday app for a company I contracted for previously - was my first time attempting to do something beyond DOM manipulation with js, and my first time working within the native mobile world. Written on top of [Titanium](http://www.appcelerator.com/titanium/titanium-sdk/), the view successfully pulled current coordinates from a user's phone, passed them to google for a readable address, and then built a set of directions around that to point the user to our offices. App was accepted to the app store and was available for a couple of months.
