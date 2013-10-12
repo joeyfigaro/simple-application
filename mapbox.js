@@ -1,3 +1,9 @@
+/*
+  Mapbox API
+  See it in action:
+  http://www.library.vcu.edu/maps/library/map.html?marker=jbc
+*/
+
 // Use any provided location values in URL so incoming visits don't hit an unaware map
 function getNodeFromURL() {
   var values = [], hash;
