@@ -12,6 +12,13 @@ $single-column: (100% - ($gutter * ($columns - 1))) / $columns;
   width: ($single-column * $number) + ($gutter * ($number - 1));
 }
 
+@mixin nested-column($num-child, $num-parent) {
+  $parent-size: ($single-column * $num-parent) + ($gutter * ($num-parent - 1));
+  $child-size: ($single-column * $num-child) + ($gutter * ($num-child - 1));
+  margin-left: ($gutter / $parent-size) * 100%;
+  width: ($child-size / $parent-size) * 100%;
+}
+
 *[data-glacier="grid"] {
   width: $context;
   overflow: hidden;
