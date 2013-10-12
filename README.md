@@ -2,6 +2,9 @@
 ![Glacier](http://f.cl.ly/items/0i1G0y2d112A2Q2Y232s/Screen%20Shot%202013-10-11%20at%208.55.25%20PM.png)
 ============================================
 
+apirequest.m
+- Snippet from a personal venture with a friend of mine. Dove right into objective-c and fell in love - wrote enough to begin working directly with the API we built for the app. By the end of the weekend sprint, I was successfully making authenticated requests, parsing responses, and displaying them within a view. 
+
 mapbox.js
 - Written on top of the [Mapbox API](https://www.mapbox.com/) to provide our visitors with an interface for getting directions. Scripted in support for visitors coming to the page 'sideways' from directions-related copy or calls to action so they didn't have to hit a brick wall. 
 
