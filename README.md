@@ -6,7 +6,7 @@ mapbox.js
 - Written on top of the [Mapbox API](https://www.mapbox.com/) to provide our visitors with an interface for getting directions. Scripted in support for visitors coming to the page 'sideways' from directions-related copy or calls to action so they didn't have to hit a brick wall. 
 
 new-project-setup.scss
-- Current project I'm involved with - 'BLDR' - a talent calculator and character build community for [Guild Wars 2](https://www.guildwars2.com/en/). Previous work had been done in vanilla css by another developer; I started rewriting the app using Sass. Frameworks of choice were [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/), and [typeplate](http://typeplate.com/).
+- Current project I'm involved with - 'BLDR' - a talent calculator and character build community for [Guild Wars 2](https://www.guildwars2.com/en/). Previous work had been done in vanilla css by another developer; I started rewriting the app using Sass. Frameworks of choice were [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/), and [typeplate](http://typeplate.com/). Working directly with Griffin Macaulay, the illustrator for [Skulls of the Shogun](http://skullsoftheshogun.com/).
 
 selectbox-url-linking.js
 - Scripted on top of [selectboxit](http://gregfranko.com/jquery.selectBoxIt.js/) to allow us to populate the select with working links. 
