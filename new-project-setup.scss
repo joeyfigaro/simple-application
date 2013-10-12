@@ -1,0 +1,176 @@
+@import "compass/reset", "compass", "bourbon/bourbon";
+@import "colors", "type", "mixins", "debug";
+
+// Grid configuration
+$column: 50px;
+$gutter: 30px;
+$grid-columns: 12;
+$max-width: 1142px;
+
+@import "neat/neat";
+
+
+.container {
+  @include outer-container;
+}
+
+header {
+  #login-bar {
+    text-align: right;
+    height: 25px;
+    background: url('../img/paintswatch-bg.png') no-repeat top left #231d1b;
+  }
+
+  .info { // user logged-in information
+    @include span-columns(2, collapse);
+    @include shift(9);
+    color: $ash;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+
+    .username {
+      color: $white;
+    }
+  }
+
+  .settings {
+    @include span-columns(1, collapse);
+  }
+
+  .new { // notification badges
+    @include circle($red);
+    color: #fefefe;
+  }
+
+  .container { // 'hr' line graphic
+    background: url('../img/top-rule.png') no-repeat bottom center;
+  }
+
+  a {
+    @include inline-block();
+    @include transition(0.25s color);
+    color: $slate;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 1rem;
+  }
+
+  img { // class icon
+    @include inline-block();
+    vertical-align: middle;
+  }
+
+  a.newest { // 'browse'
+    @include span-columns(2, collapse);
+  }
+
+  nav#builds { // primary nav
+    @include span-columns(7, collapse);
+    text-align: center;
+
+    img.class-icon {
+      position: relative;
+      top: 1.2rem;
+    }
+  }
+
+  nav#user {
+    text-align: right;
+    @include span-columns(3, collapse);
+
+    a.profile {
+      @include transition(0.25s background-color);
+      color: $white;
+      text-align: center;
+      width: 148px;
+      height: 42px;
+      background: #4c5959 url('../img/profile-mask.png') center center no-repeat;
+      padding: 1rem 0 0 2rem;
+
+      &:hover {
+        text-decoration: none;
+        background-color: $red;
+      }
+    }
+  }
+}
+
+#build {
+  #search {
+    @include span-columns(2, collapse);
+  }
+
+  #meta {
+    @include span-columns(7, collapse);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.75rem 0;
+
+    h1 {
+      font-weight: bold;
+      letter-spacing: 0.03rem;
+      margin: 0 0 0.15rem;
+    }
+
+    h2 {
+      color: $ash;
+      font-size: 1.25rem;
+      letter-spacing: 0.16rem;
+    }
+  }
+
+  #modes {
+    @include span-columns(3, collapse);
+    text-align: center;
+
+    .mode {
+      @include inline-block;
+      height: 40px;
+      background: url('../img/modes.png') no-repeat;
+      cursor: pointer;
+
+      &.active { // change active emblem's height
+        height: 67px;
+      }
+
+      &.pvp {
+        width: 54px;
+        background-position: 0px 0px;
+
+        &:hover {
+          background-position: 0px -72px;
+        }
+
+        &.active {
+          background-position: 0px -144px;
+        }
+      }
+
+      &.wvw {
+        width: 48px;
+        background-position: -52px 0px;
+
+        &:hover {
+          background-position: -52px -72px;
+        }
+
+        &.active {
+          background-position: -52px -144px;
+        }
+      }
+
+      &.pve {
+        width: 47px;
+        background-position: -99px 0px;
+
+        &:hover {
+          background-position: -99px -72px;
+        }
+
+        &.active {
+          background-position: -99px -144px;
+        }
+      }
+    }
+  }
+}

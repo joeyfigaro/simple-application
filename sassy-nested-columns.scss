@@ -1,0 +1,29 @@
+@import "mixins";
+
+*[data-glacier="grid"] {
+  width: $context;
+  overflow: hidden;
+}
+
+*[data-row] {
+  width: 100%;
+  overflow: hidden;
+
+  @for $i from 1 through $columns {
+    *[data-column="#{$i}"] {
+      @include column($i);
+      float: left;
+      margin-left: $gutter;
+
+      @for $j from 1 through ($i - 1) {
+        *[data-column] *[data-column="#{$j}"] {
+          @include nested-column($j, $i);
+        }
+      }
+    }
+  }
+
+  > :first-child, *[data-row] > :first-child {
+    margin-left: 0;
+  }
+}
