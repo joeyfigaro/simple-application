@@ -17,9 +17,7 @@ head.ready('selectBox', function() {
   function navigateTo(url) {
     var url = url.toLowerCase();
     var destination;
-    var destination_array = [];
-
-    destination_array = {
+    var destination_array = {
       pubmed: 'http://www.ncbi.nlm.nih.gov/pubmed?otool=vculib',
       database: 'https://apps.library.vcu.edu/dblist',
       libguides: 'http://guides.library.vcu.edu/home',
