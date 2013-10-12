@@ -6,6 +6,7 @@
 
 */
 
+$single-column: (100% - ($gutter * ($columns - 1))) / $columns;
 
 @mixin column($number) {
   width: ($single-column * $number) + ($gutter * ($number - 1));
