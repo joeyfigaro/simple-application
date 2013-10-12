@@ -8,9 +8,6 @@ mapbox.js
 new-project-setup.scss
 - Current project I'm involved with - 'BLDR' - a talent calculator and character build community for [Guild Wars 2](https://www.guildwars2.com/en/). Previous work had been done in vanilla css by another developer; I started rewriting the app using Sass. Frameworks of choice were [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/), and [typeplate](http://typeplate.com/).
 
-sassy-nested-columns.scss
-- From a (currently idle) [sass framework](http://github.com/vculibraries/glacier) I authored for the team to use for the redesign at VCU. I was particularly proud of this gem and enjoyed pseudo-code slam-sessions on the team whiteboard. Handles nested grids nicely.
-
 selectbox-url-linking.js
 - Scripted on top of [selectboxit](http://gregfranko.com/jquery.selectBoxIt.js/) to allow us to populate the select with working links. 
 
