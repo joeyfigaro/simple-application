@@ -6,7 +6,7 @@ mapbox.js
 - Written on top of the [Mapbox API](https://www.mapbox.com/) to provide our visitors with an interface for getting directions. Scripted in support for visitors coming to the page 'sideways' from directions-related copy or calls to action so they didn't have to hit a brick wall. 
 
 new-project-setup.scss
-- Current project I'm involved with - 'BLDR' is a talent calculator and character build community for [Guild Wars 2](https://www.guildwars2.com/en/). Previous work had been done in vanilla css; I started rewriting the app using Sass. Frameworks of choice were bourbon, neat, and typeplate.
+- Current project I'm involved with - 'BLDR' - a talent calculator and character build community for [Guild Wars 2](https://www.guildwars2.com/en/). Previous work had been done in vanilla css; I started rewriting the app using Sass. Frameworks of choice were bourbon, neat, and typeplate.
 
 sassy-nested-columns.scss
 - From a (currently idle) [sass framework](http://github.com/vculibraries/glacier) I authored for the team to use for the redesign at VCU. I was particularly proud of this gem and enjoyed pseudo-code slam-sessions on the team whiteboard. Handles nested grids nicely.
