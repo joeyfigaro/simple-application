@@ -1,4 +1,3 @@
-# Portland or bust!
 ![Glacier](http://f.cl.ly/items/0i1G0y2d112A2Q2Y232s/Screen%20Shot%202013-10-11%20at%208.55.25%20PM.png)
 ============================================
 
@@ -16,3 +15,6 @@ selectbox-url-linking.js
 
 titanium-reverse-geolocation.js
 - Part of a holiday app for a company I contracted for previously - was my first time attempting to do something beyond DOM manipulation with js, and my first time working within the native mobile world. Written on top of [Titanium](http://www.appcelerator.com/titanium/titanium-sdk/), the view successfully pulled current coordinates from a user's phone, passed them to Google for a readable address, put the returned address into a url, and then built a set of directions around it to point the user to our offices. App was accepted to the app store and was available for a couple of months.
+
+ipad-dropdowns.js
+- Quick script I wrote to handle dropdown navigation on the new VCU Libraries website for visitors using an iPad. Touching a dropdown link shows the relevant menu - touching the link twice will navigate to the relevant page. Intelligently handles cases where users open menu A and immediately open menu B. Should this happen, touching menu A again will not count as a second/consecutive interaction.
